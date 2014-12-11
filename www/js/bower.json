@@ -1,0 +1,28 @@
+{
+  "name": "Dieta dos Pontos",
+  "version": "0.0.0",
+  "homepage": "Não implementado",
+  "description": "Um aplicativo para acompanhar sua dieta",
+  "authors": [
+    "Vinícius"
+  ],
+  "license": "Apache",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "",
+    "angular": "",
+    "angular-i18n": "",
+    "restangular": "",
+    "angular-bootstrap": "",
+    "ngInfiniteScroll": "",
+    "angular-toastr":"",
+    "jQuery":""
+  }
+}
