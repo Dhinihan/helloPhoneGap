@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<!--ng-app="rpgApp"-->
+<html lang="pt-br" ng-app="pontosApp">
 <head>
 <meta charset="utf-8">
 <meta name="viewport"
@@ -13,23 +12,24 @@
 <link href="css/style.css" rel="stylesheet">
 
 <!--Bower-->
-<script src="bower_components/jQuery/dist/jquery.min.js"></script>
-<script src="bower_components/angular/angular.min.js"></script>
-<script src="bower_components/angular-route/angular-route.min.js"></script>
-<script src="bower_components/angular-i18n/angular-locale_pt-br.js"></script>
-<script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+<script src="js/bower_components/jQuery/dist/jquery.min.js"></script>
+<script src="js/bower_components/angular/angular.min.js"></script>
+<script src="js/bower_components/angular-route/angular-route.min.js"></script>
+<script src="js/bower_components/angular-i18n/angular-locale_pt-br.js"></script>
+<script src="js/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
 <script
-	src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-<script src="bower_components/lodash/dist/lodash.min.js"></script>
-<script src="bower_components/restangular/dist/restangular.min.js"></script>
+	src="js/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+<script src="js/bower_components/lodash/dist/lodash.min.js"></script>
+<script src="js/bower_components/restangular/dist/restangular.min.js"></script>
 <script
-	src='bower_components/ngInfiniteScroll/build/ng-infinite-scroll.min.js'></script>
+	src='js/bower_components/ngInfiniteScroll/build/ng-infinite-scroll.min.js'></script>
 <link rel="stylesheet"
-	href="bower_components/angular-toastr/dist/angular-toastr.min.css" />
-<script src="bower_components/angular-toastr/dist/angular-toastr.min.js"></script>
-<!--AplicaÃ§Ã£o
-<script src="app.js"></script>
-<script src="app-service.js"></script>
+	href="js/bower_components/angular-toastr/dist/angular-toastr.min.css" />
+<script src="js/bower_components/angular-toastr/dist/angular-toastr.min.js"></script>
+<!--AplicaÃ§Ã£o -->
+<script src="js/app.js"></script>
+<script src="js/pontos/busca-controller.js"></script>
+<!-- <script src="app-service.js"></script>
 <script src="config/app.local.config.js"></script> -->
 
 <!--  <script src="perfil/perfil-controller.js"></script>
@@ -44,8 +44,10 @@ body {
 </head>
 <body>
 	<div class="row-fluid">
-		<div class="col-md-12"><img src="img/titulo.png" class="img-responsive center-block"></div>	
+		<div class="col-md-12">
+			<img src="img/titulo.png" class="img-responsive center-block">
+		</div>
 	</div>
-	<!-- 	<div class="container-fluid" ng-view></div> -->
+	<div class="container-fluid" ng-view></div>
 </body>
 </html>
