@@ -1,16 +1,16 @@
 <div class="text-success margin-top-30">
 	<form role="form">
 		<div class="form-group">
-			<div class="col-xs-9">
-				<input type="text" class="form-control input-lg"
+			<div class="col-xs-7">
+				<input type="text" class="form-control input-lg" ng-model="selected"
+					typeahead="user as (user.nome) for user in users | filter:$viewValue:matchBegin"
 					id="buscaComida" placeholder="busque aqui...">
 			</div>
 			<div class="col-xs-3">
-				<button type="submit" class="btn btn-default btn-lg">Buscar</button>
+				<button type="submit" class="btn btn-success	 btn-lg">Buscar</button>
 			</div>
 		</div>
 	</form>
-
-
-
+</div>
+	
 </div>
