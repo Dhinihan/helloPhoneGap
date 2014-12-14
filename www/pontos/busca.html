@@ -1,4 +1,4 @@
-<div class="text-success margin-top-30">
+<div class="margin-top-30">
 	<form role="form">
 		<div class="form-group">
 			<div class="input-group">
@@ -8,10 +8,15 @@
 				<div class="input-group-btn">
 					<button class="btn btn-success btn-lg" type="submit">
 						<i class="glyphicon glyphicon-search"></i>
-					</button>
+					</button>	
 				</div>
 			</div>
 		</div>
 	</form>
+	<div class="container-fluid text-{{tipoDeComida(selected)}}">
+		<h1 style="font-size: 8vmin">{{teste}}</h1>
+		<h1 style="font-size: 80vmin">{{selected.pontos}}</h1>
+		
+	</div>
 </div>
 
